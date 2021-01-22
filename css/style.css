@@ -411,7 +411,7 @@ h1, h2, h3, h4 {
 
 .site-section {
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 0rem;
   position: relative;
   z-index: 2; }
 
