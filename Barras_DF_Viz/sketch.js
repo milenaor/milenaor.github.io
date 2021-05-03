@@ -9,6 +9,9 @@ let mountains;
 
 let data=[4941, 4739, 2303, 2064, 1638, 1493, 1290, 1136, 973, 805, 791, 670, 454, 377, 303, 275, 273, 249, 235, 234, 186, 143, 128, 105, 94, 79, 41, 38, 23, 21, 2];
 
+let labels=[A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, V, W, X, Y, Z, AA, BB, CC, DD, EE, FF];
+
+
 /*let labels =[Campesino, Trabajador_de_Finca, Trabajo_Sin_Especificar, Comerciante, Economia_Informal, Empleado, Conductor_Motorista, Otra_Cual, Obrero, Desempleado, Estudiante, Fuerza_Publica, Paramilitar, Pescador, Minero, Administrador_de_Finca, Raspachin, Funcionario_Publico, Seguridad_Privada, Profesional, Ganadero_Hacendado, No_Aplica, Delincuente, Guerrillero, Personal_de_Salud, Ama_de_Casa, Religioso, Trabajador_Sexual, Empresario_Industrial, Pensionado,Grupo_Posdesmovilizacion];*/
 
 //-----variables tamaño canvas------//
@@ -24,7 +27,7 @@ let margen ={derecha:10, izquierda:10, superior:10, inferior:10}
 
 let ancho_g = ancho_c-margen.derecha-margen.izquierda;
 
-let alto_g = alto_c-margen.superior-margen.inferior;
+let alto_g = 710;
 
 
 //-------ancho de la barra-------//
@@ -46,31 +49,31 @@ function preload(){
 //----------------------------------------//
 //1900,800
 function setup(){
-    createCanvas(ancho_c,alto_c);
-    background(66,87,109);
+    
+    createCanvas(ancho_c,1000);
+    background(255);
     textFont("Fauna One");
     
+    //--Rectagulo azul fondo--//
+    noStroke();
+    fill(66,87,109);
+    rect(0,0,ancho_c,alto_c);
+    
     //--Imagen montañas--//
-    image(mountains,0,400, 1520,400);
-    
-    //--Imagen mapa colombia--//
-    //image(map,0,400, 1520,400);
-    
-    //recuadro dentro del canvas con margenes//
-//    push();
-//    translate(margen.izquierda, margen.derecha);
-    //rect(0,0,ancho_g,alto_g);
+    image(mountains,0,360, 1520,350);
+ 
+    //--Gráfico de barras--//
     grafico(data);
-    //ejex(labels);
-//    pop();
+    
+    //--Nombres de Gráfico de barras--//
+    ejex (labels);
+
 }
 
 //-------------------------------------//
 
-function draw(){
-    
-     
-      
+function draw(){  
+  
     //--Letra--//
     fill (255);
     textSize(20);
@@ -78,8 +81,8 @@ function draw(){
     
     fill (255);
     textSize(40);
-    text('por Ocupación',120,75);
-       
+    text('por Ocupación',120,75);  
+
 }
 
 
@@ -106,11 +109,12 @@ function grafico (data){
 
 // -------función texto barras-------------//
 
-/*function ejex (labels){
-    fill(23,78,99);
-    for (let i = 0; i < lebels.length; i++){
-        Text(labels[i],0,i*anchobanda)
+function ejex (labels){
+    fill(0);
+    
+    for (let i=0; i < labels.length; i++){
+        text(labels[i],0,i*anchobanda)
     }
     
-}*/
+}
 
