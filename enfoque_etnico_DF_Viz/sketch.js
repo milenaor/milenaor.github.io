@@ -4,7 +4,7 @@ let dataEtnia=[79514, 661, 464,31, 3, 1];
 
 //Variables Canvas//
 let MARGIN = 10;
-let FIRST_SECTION_HEIGHT = 5000;
+let FIRST_SECTION_HEIGHT = 800;
 let BACKGROUND_IMAGE_HEIGHT = 0.4;
 
 
@@ -14,56 +14,62 @@ function setup() {
     
     //Sin información //
     for (var i=0; i < dataEtnia[0]; i++){
-        var x= random (windowWidth-MARGIN-250);
+        var x= random (windowWidth-MARGIN);
         var y= random (FIRST_SECTION_HEIGHT);
         var r= 18;
-        fill(216, 223, 229);
-        ellipse (x,y,r,r);
+        stroke (216, 223, 229);
+        strokeWeight (5);
+        point (x,y);
     }
     
     //Indígena//
      for (var i=0; i < dataEtnia[1]; i++){
-        var x= random (windowWidth-MARGIN-250);
+        var x= random (windowWidth-MARGIN);
         var y= random (FIRST_SECTION_HEIGHT);
         var r= 18;
-        fill(143, 169, 191);
-        ellipse (x,y,r,r);
+        stroke (143, 169, 191);
+        strokeWeight (5);
+        point (x,y);
     }
     
     //Afrocolombiano//
      for (var i=0; i < dataEtnia[2]; i++){
-        var x= random (windowWidth-MARGIN-250);
+        var x= random (windowWidth-MARGIN);
         var y= random (FIRST_SECTION_HEIGHT);
         var r= 18;
-        fill(7, 58, 86);
-        ellipse (x,y,r,r);
+        stroke (7, 58, 86);
+        strokeWeight (5);
+        point (x,y);
     }
     
     //Raizal//
      for (var i=0; i < dataEtnia[3]; i++){
-        var x= random (windowWidth-MARGIN-250);
+        var x= random (windowWidth-MARGIN);
         var y= random (FIRST_SECTION_HEIGHT);
         var r= 18;
-        fill(75, 94, 107);
-        ellipse (x,y,r,r);
+        stroke (75, 94, 107);
+        strokeWeight (5);
+        point (x,y);
     }
     
     //Palenquero//
     for (var i=0; i < dataEtnia[4]; i++){
-        var x= random (windowWidth-MARGIN-250);
+        var x= random (windowWidth-MARGIN);
         var y= random (FIRST_SECTION_HEIGHT);
         var r= 18;
-        fill(164, 179, 193);
-        ellipse (x,y,r,r);
+        stroke (164, 179, 193);
+        strokeWeight (5);
+        point (x,y);
     }
     
     //Rom//
      for (var i=0; i < dataEtnia[5]; i++){
-        var x= random (windowWidth-MARGIN-250);
+        var x= random (windowWidth-MARGIN);
         var y= random (FIRST_SECTION_HEIGHT);
         var r= 18;
-        fill(30, 42, 54);
-        ellipse (x,y,r,r);
+        stroke (30, 42, 54);
+        strokeWeight (5);
+        point (x,y);
     }
     
 }  
@@ -74,12 +80,14 @@ function draw() {
     //rect(0,0,width-10,FIRST_SECTION_HEIGHT);
           
     fill (66,87,109);
+    noStroke ();
     textSize(20);
-    text('Desaparición Forzada',width/(width/100),FIRST_SECTION_HEIGHT-850);
+    text('Desaparición Forzada',width/(width/100),FIRST_SECTION_HEIGHT-750);
     
     fill (66,87,109);
+    noStroke ();
     textSize(40);
-    text('Por Enfoque Étnico',width/(width/100),FIRST_SECTION_HEIGHT-800); 
+    text('Por Enfoque Étnico',width/(width/100),FIRST_SECTION_HEIGHT-700); 
        
 }
 
