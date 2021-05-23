@@ -85,12 +85,12 @@ function draw() {
     fill (66,87,109);
     noStroke ();
     textSize(max(15*windowWidth/1000,15));
-    text('Indígenas',width/(width/300),710);
+    text('Indígenas',width/2,710);
     
     fill (66,87,109);
     noStroke ();
     textSize(max(20*windowWidth/1000,20));
-    text('661',width/(width/300),680);
+    text('661',width/2,680);
        
 }
 
