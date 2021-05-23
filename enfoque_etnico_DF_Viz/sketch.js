@@ -38,7 +38,7 @@ function setup() {
         var signo= (i%2)*2-1;
         stroke (143, 169, 191);
         strokeWeight (7);
-        point (x+windowWidth/4,y+400);
+        point (x+windowWidth/4,y+FIRST_SECTION_HEIGHT*9/16);
     }
     
     //Afrocolombiano//
@@ -50,7 +50,7 @@ function setup() {
         var signo= (i%2)*2-1;
         stroke (7, 58, 86);
         strokeWeight (7);
-        point (x+windowWidth*9/16,y+400);
+        point (x+windowWidth*9/16,y+FIRST_SECTION_HEIGHT*9/16);
     }
     
     //Raizal, Palenquero, Rom //
@@ -62,7 +62,7 @@ function setup() {
         var signo= (i%2)*2-1;
         stroke (75, 94, 107);
         strokeWeight (7);
-        point (x+windowWidth*3/4,y+400);
+        point (x+windowWidth*3/4,y+FIRST_SECTION_HEIGHT*9/16);
     }
     
 }  
@@ -79,8 +79,13 @@ function draw() {
     
     fill (66,87,109);
     noStroke ();
-    textSize(40);
-    text('Por Enfoque Étnico',width/(width/100),120); 
+    textSize(max(30*windowWidth/1000,30));
+    text('Por Enfoque Étnico',width/(width/100),120);
+    
+    fill (66,87,109);
+    noStroke ();
+    textSize(max(15*windowWidth/1000,15));
+    text('Indigena',width/(width/100),700);
        
 }
 
