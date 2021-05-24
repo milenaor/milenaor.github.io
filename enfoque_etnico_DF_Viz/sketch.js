@@ -91,6 +91,16 @@ function draw() {
     noStroke ();
     textSize(max(20*windowWidth/1000,20));
     text('661',width/2,680);
+    
+    fill (66,87,109);
+    noStroke ();
+    textSize(max(15*windowWidth/1000,15));
+    text('Afrocolombiano',width/2,710);
+    
+    fill (66,87,109);
+    noStroke ();
+    textSize(max(20*windowWidth/1000,20));
+    text('464',width/2,680);
        
 }
 

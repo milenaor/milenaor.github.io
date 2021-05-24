@@ -12,6 +12,7 @@ let BACKGROUND_IMAGE_HEIGHT = 0.4;
 function preload(){
     img_background_map = loadImage('img/colombian_map.png');
     img_background_mountains = loadImage('img/mountains-02.png');
+    img_background_ilustracion = loadImage('img/ilustracion.png');
  
 }
 
@@ -19,6 +20,7 @@ function preload(){
 function setup() {
     createCanvas(windowWidth-MARGIN, 2000);
     textFont("Fauna One"); 
+  
     
 } 
 
@@ -29,7 +31,9 @@ function circleBar(x_bar, y_bar, height, space, circle_radius) {
         noStroke();
         ellipse (x_bar, y_bar-y*(circle_radius+space), circle_radius,circle_radius);
     }
+    
 }
+
 
  
 
@@ -37,6 +41,8 @@ function draw() {
  
     fill(66,87,109);
     rect(0,0,width-10,FIRST_SECTION_HEIGHT);
+    
+    image(img_background_ilustracion,width/8,FIRST_SECTION_HEIGHT/6);
     image(img_background_map,width/3,FIRST_SECTION_HEIGHT/15);
     image(img_background_mountains,0,FIRST_SECTION_HEIGHT*(1-BACKGROUND_IMAGE_HEIGHT),width-MARGIN,FIRST_SECTION_HEIGHT*BACKGROUND_IMAGE_HEIGHT);
   
@@ -47,17 +53,27 @@ function draw() {
         fill (86,125,157);
         rect(30+bar*(width-70)/bar_number-circle_radius*0.6, FIRST_SECTION_HEIGHT - bar_height - 25, circle_radius*1.2, bar_height+25);
         circleBar(30+bar*(width-70)/bar_number,FIRST_SECTION_HEIGHT - 20,bar_height,CIRCLE_SPACE,circle_radius);
+        
       }
     
      
-          
+    //Titulo//      
     fill (255);
     textSize(20);
-    text('Desaparición Forzada',width/(width/100),FIRST_SECTION_HEIGHT-800);
+    text('Desaparición Forzada',width/(width/100),FIRST_SECTION_HEIGHT-850);
     
     fill (255);
     textSize(40);
-    text('por Ocupación',width/(width/100),FIRST_SECTION_HEIGHT-750); 
+    text('por Ocupación',width/(width/100),FIRST_SECTION_HEIGHT-800); 
+    
+    //Texto víctimas totales//
+    fill (255);
+    textSize(25);
+    text('Victimas Totales',width/3,FIRST_SECTION_HEIGHT-370);
+    
+    fill (255);
+    textSize(70);
+    text('80.674',width/3,FIRST_SECTION_HEIGHT-300); 
        
 }
 
