@@ -19,7 +19,7 @@ function preload(){
 
 function setup() {
     createCanvas(windowWidth-MARGIN, 2000);
-    textFont("Fauna One"); 
+    textFont("Fauna One");
   
     
 } 
@@ -30,12 +30,9 @@ function circleBar(x_bar, y_bar, height, space, circle_radius) {
         fill (6,48,61);
         noStroke();
         ellipse (x_bar, y_bar-y*(circle_radius+space), circle_radius,circle_radius);
-    }
-    
+    }   
 }
 
-
- 
 
 function draw() {
  
@@ -53,7 +50,14 @@ function draw() {
         fill (86,125,157);
         rect(30+bar*(width-70)/bar_number-circle_radius*0.6, FIRST_SECTION_HEIGHT - bar_height - 25, circle_radius*1.2, bar_height+25);
         circleBar(30+bar*(width-70)/bar_number,FIRST_SECTION_HEIGHT - 20,bar_height,CIRCLE_SPACE,circle_radius);
-        
+         
+        push();    
+        fill (0);
+        textSize(20);
+        translate(1510,460);
+        rotate(HALF_PI);
+        text('A',FIRST_SECTION_HEIGHT/2,30+bar*(width-70)/bar_number);
+        pop();
       }
     
      
