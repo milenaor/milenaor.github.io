@@ -8,6 +8,11 @@ let MARGIN = 10;
 
 let BACKGROUND_IMAGE_HEIGHT = 0.4;
 
+function preload(){
+    img_background_ilustracionEtnia = loadImage('img/ilustracion2.png');
+
+}
+
 
 function setup() {
     let FIRST_SECTION_HEIGHT = 1300;
@@ -68,39 +73,50 @@ function setup() {
 }  
 
 function draw() {
- 
+    
+    image(img_background_ilustracionEtnia,windowWidth/11,windowHeight/11);
+    //image(img_background_ilustracionEtnia,windowWidth*9/12,windowHeight*2/3);
+    //image(img_background_ilustracionEtnia,windowWidth/11,windowHeight*7/6);
+    
     //fill(66,87,109);
     //rect(0,0,width-10,FIRST_SECTION_HEIGHT);
+   
           
     fill (66,87,109);
     noStroke ();
-    textSize(max(15*windowWidth/1000,15));
-    text('Desaparición Forzada',width/2,70);
+    textSize(max(10*windowWidth/1000,10));
+    text('Desaparición Forzada',windowWidth/3,70);
     
     fill (66,87,109);
     noStroke ();
     textSize(max(30*windowWidth/1000,30));
-    text('Por Enfoque Étnico',width/2,120);
+    text('Por Enfoque Étnico',windowWidth/3,120);
     
     fill (66,87,109);
     noStroke ();
-    textSize(max(15*windowWidth/1000,15));
-    text('Indígenas',width/2,710);
+    textSize(max(10*windowWidth/1000,10));
+    text('Vìctimas Indígenas',windowWidth/2,710);
     
     fill (66,87,109);
     noStroke ();
-    textSize(max(20*windowWidth/1000,20));
-    text('661',width/2,680);
+    textSize(max(30*windowWidth/1000,30));
+    text('661',windowWidth/2,680);
     
     fill (66,87,109);
     noStroke ();
-    textSize(max(15*windowWidth/1000,15));
-    text('Afrocolombiano',width/2,710);
+    textSize(max(10*windowWidth/1000,10));
+    text('Vìctimas Afrocolombianas',windowWidth/2,1117);
     
     fill (66,87,109);
     noStroke ();
-    textSize(max(20*windowWidth/1000,20));
-    text('464',width/2,680);
+    textSize(max(30*windowWidth/1000,30));
+    text('464',windowWidth/2,1087);
+    
+    fill (66,87,109);
+    noStroke ();
+    textSize(max(10*windowWidth/1000,10));
+    text('Vìctimas Raizales, Palenqueras y rom',windowWidth/2,1290);
+  
        
 }
 
