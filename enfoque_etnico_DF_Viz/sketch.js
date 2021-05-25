@@ -74,7 +74,7 @@ function setup() {
 
 function draw() {
     
-    image(img_background_ilustracionEtnia,windowWidth/11,windowHeight/11);
+    //image(img_background_ilustracionEtnia,windowWidth/11,windowHeight/11);
     //image(img_background_ilustracionEtnia,windowWidth*9/12,windowHeight*2/3);
     //image(img_background_ilustracionEtnia,windowWidth/11,windowHeight*7/6);
     
@@ -116,6 +116,11 @@ function draw() {
     noStroke ();
     textSize(max(10*windowWidth/1000,10));
     text('Vìctimas Raizales, Palenqueras y rom',windowWidth/2,1290);
+    
+    fill (66,87,109);
+    noStroke ();
+    textSize(max(30*windowWidth/1000,30));
+    text('35',windowWidth/2,1260);
   
        
 }
