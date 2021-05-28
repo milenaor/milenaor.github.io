@@ -1,6 +1,6 @@
 let data=[4941, 4739, 2303, 2064, 1638, 1493, 1290, 1136, 973, 805, 791, 670, 454, 377, 303, 275, 273, 249, 235, 234, 186, 143, 128, 105, 94, 79, 41, 38, 23, 21, 2];
 
-let namedata =['Campesino','Trabajador_de_Finca','Trabajo_Sin_Especificar', 'Comerciante', 'Economia_Informal', 'Empleado', 'Conductor_Motorista', 'Otra_Cual', 'Obrero', 'Desempleado', 'Estudiante', 'Fuerza_Publica', 'Paramilitar', 'Pescador', 'Minero', 'Administrador_de_Finca', 'Raspachin', 'Funcionario_Publico', 'Seguridad_Privada', 'Profesional', 'Ganadero_Hacendado', 'No_Aplica', 'Delincuente', 'Guerrillero', 'Personal_de_Salud', 'Ama_de_Casa', 'Religioso', 'Trabajador_Sexual', 'Empresario_Industrial', 'Pensionado','Grupo_Posdesmovilizacion'];
+//let namedata =['Campesino','Trabajador_de_Finca','Trabajo_Sin_Especificar', 'Comerciante', 'Economia_Informal', 'Empleado', 'Conductor_Motorista', 'Otra_Cual', 'Obrero', 'Desempleado', 'Estudiante', 'Fuerza_Publica', 'Paramilitar', 'Pescador', 'Minero', 'Administrador_de_Finca', 'Raspachin', 'Funcionario_Publico', 'Seguridad_Privada', 'Profesional', 'Ganadero_Hacendado', 'No_Aplica', 'Delincuente', 'Guerrillero', 'Personal_de_Salud', 'Ama_de_Casa', 'Religioso', 'Trabajador_Sexual', 'Empresario_Industrial', 'Pensionado','Grupo_Posdesmovilizacion'];
 
 let MARGIN = 10;
 let FIRST_SECTION_HEIGHT = 900;
@@ -56,7 +56,7 @@ function draw() {
         textSize(20);
         translate(1510,460);
         rotate(HALF_PI);
-        text(namedata[bar],FIRST_SECTION_HEIGHT/2,30+bar*(width-70)/bar_number);
+        text('a',FIRST_SECTION_HEIGHT/2,30+bar*(width-70)/bar_number);
         pop();
       }
     
