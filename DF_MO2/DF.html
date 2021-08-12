@@ -11,11 +11,11 @@
 
 
 <!-- Create a div where the graph will take place -->
-<div id="my_dataviz"></div>
-<!--<div id="my_dataviz" style="background-image: url('img/background2.svg');background-repeat: no-repeat;"></div>-->
+<svg id="my_dataviz"> </svg>
+
 
 <script>
-
+    
 // set the dimensions and margins of the graph
 var margin = {top: 10, right: 30, bottom: 40, left: 200},
     width = 1200 - margin.left - margin.right,
@@ -24,8 +24,7 @@ var margin = {top: 10, right: 30, bottom: 40, left: 200},
 // append the svg object to the body of the page
 var svg = d3.select("#my_dataviz")
   .append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
+    .attr('viewBox', `0 0 ${width + margin.left + margin.right} ${height + margin.top + margin.bottom}`)
     .style("margin", "auto")
   .append("g") //¿g?//
     .attr("transform",
@@ -69,9 +68,9 @@ svg.append("g")
 //<!-- Load images -->//
 var img = svg.append('svg:image')
  img
- .attr("xlink:href","https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/DF_MO2/img/background800.svg")
- .attr("x", "60")
- .attr("y", "60")
+ .attr("xlink:href","https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/DF_MO2/img/infographic.svg")
+ .attr("x", "0")
+ .attr("y", "-40")
  .attr("width", `${width + margin.left + margin.right}`)
  .attr("height", `${height + margin.top + margin.bottom}`);
     
