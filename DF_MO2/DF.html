@@ -9,13 +9,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fauna+One&display=swap" rel="stylesheet">
 
+
 <!-- Create a div where the graph will take place -->
-<div id="my_dataviz" style="background-image: url('img/background2.svg');background-repeat: no-repeat;"></div>
+<div id="my_dataviz"></div>
+<!--<div id="my_dataviz" style="background-image: url('img/background2.svg');background-repeat: no-repeat;"></div>-->
 
 <script>
 
 // set the dimensions and margins of the graph
-var margin = {top: 10, right: 30, bottom: 40, left: 130},
+var margin = {top: 10, right: 30, bottom: 40, left: 200},
     width = 1200 - margin.left - margin.right,
     height = 750 - margin.top - margin.bottom;
 
@@ -65,14 +67,13 @@ svg.append("g")
     
 
 //<!-- Load images -->//
-/*var img = svg.selectAll("img").data([0]);
- img.enter()
- .append("img")
- .attr("xlink:href","map.svg")
+var img = svg.append('svg:image')
+ img
+ .attr("xlink:href","https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/DF_MO2/img/background800.svg")
  .attr("x", "60")
  .attr("y", "60")
- .attr("width", "20")
- .attr("height", "20");*/
+ .attr("width", `${width + margin.left + margin.right}`)
+ .attr("height", `${height + margin.top + margin.bottom}`);
     
   //<!-- Load images (another one) -->//  
    /* svg.append("defs")
