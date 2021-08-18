@@ -64,14 +64,13 @@ svg.append("g")
     
     
 //<!-- Load images -->//
-/*var img = svg.selectAll("img"));
- .enter()
- .append("img")
- .attr("xlink:href", ("img/map.svg"))
- .attr("x", "60")
- .attr("y", "60")
- .attr("width", "20")
- .attr("height", "20");*/
+var img = svg.append('svg:image')
+ img
+ .attr("xlink:href","https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/DF_MO/img/infographic_2.svg")
+ .attr("x", "-80")
+ .attr("y", "-48")
+ .attr("width", `${width + margin.left + margin.right}`)
+ .attr("height", `${height + margin.top + margin.bottom}`);
    
 
 // Lines
