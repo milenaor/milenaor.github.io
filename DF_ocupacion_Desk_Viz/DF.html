@@ -66,7 +66,7 @@ svg.append("g")
 //<!-- Load images -->//
 var img = svg.append('svg:image')
  img
- .attr("xlink:href","https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/DF_MO/img/infographic_2.svg")
+ .attr("xlink:href","https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/DF_ocupacion_Desk_Viz/img/infographic_2.svg")
  .attr("x", "-80")
  .attr("y", "-48")
  .attr("width", `${width + margin.left + margin.right}`)
@@ -109,7 +109,7 @@ svg.selectAll("line")
   .attr("x1", function(d) { return x(d.Value); })
     
 
-    
+  //----------//  
     
     // Y axis Valores después del circulo 
     var y = d3.scaleBand()
@@ -119,14 +119,15 @@ svg.selectAll("line")
 svg.append("g")
   .call(d3.axisRight(y))
     .selectAll("text")
-    .transition()
-    .duration(2000)
-    .attr(function(d) { return y(d.Value), y(0); })
     .attr ("font-family", function (d, i) {return i <5? "Fauna One": "Fauna One";})
     .attr("fill", "#06303D")
-    /*.transition()
-    .duration(3000)*/
- 
+    
+//Crear SVG number//
+// svg.selectAll("number")
+//  .data(data)
+//  .enter()
+
+    
 
 })
 
