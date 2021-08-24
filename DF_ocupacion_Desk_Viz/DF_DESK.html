@@ -47,7 +47,7 @@ svg.append("g")
     .attr("fill", "#FFFFFF")
     .selectAll("text")
     .transition()
-    .duration(3000)
+    .duration(5000)
     .attr ("font-family", function (d, i) {return i <5? "Fauna One": "Fauna One";})
     .attr("text-anchor", "right")
     .style("font-size", 14)
@@ -83,7 +83,7 @@ svg.append("g")
 //<!-- Load images -->//
 var img = svg.append('svg:image')
  img
- .attr("xlink:href","https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/DF_ocupacion_Desk_Viz/img/infographic_2.svg")
+ .attr("xlink:href","https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/DF_ocupacion_Desk_Viz/img/infographic_desk.svg")
  .attr("x", "-80")
  .attr("y", "-48")
  .attr("width", `${width + margin.left + margin.right}`)
@@ -125,12 +125,6 @@ svg.selectAll("line")
   .duration(2000)
   .attr("x1", function(d) { return x(d.Value); })
     
-
-  //----------//  
-    
-
-  
-
 
 })
 
