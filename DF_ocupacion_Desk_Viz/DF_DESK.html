@@ -44,14 +44,11 @@ var y = d3.scaleBand()
 svg.append("g")
     .attr("transform", "translate(0," + -6 + ")")
     .call(d3.axisRight(y))
-    .attr("fill", "#FFFFFF")
     .selectAll("text")
-    .transition()
-    .duration(9500)
     .attr ("font-family", function (d, i) {return i <5? "Fauna One": "Fauna One";})
     .attr("text-anchor", "right")
-    .style("font-size", 14)
-    .attr("fill", "#FFFFFF")
+    .style("font-size", 12)
+    .attr("fill", "#06303D")
     
 // Add X axis
 var x = d3.scaleLinear()
@@ -82,12 +79,15 @@ svg.append("g")
     
 //<!-- Load images -->//
 var img = svg.append('svg:image')
+ .transition()
+ .duration(2000)
  img
  .attr("xlink:href","https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/DF_ocupacion_Desk_Viz/img/infographic_desk.svg")
  .attr("x", "-80")
  .attr("y", "-48")
  .attr("width", `${width + margin.left + margin.right}`)
  .attr("height", `${height + margin.top + margin.bottom}`);
+    
    
 
 // Lines
@@ -108,7 +108,7 @@ svg.selectAll("mycircle")
   .append("circle")
     .attr("cx", x(0) )
     .attr("cy", function(d) { return y(d.Occupation); })
-    .attr("r", "5")
+    .attr("r", "4")
     .style("fill", "#C0CFD4")
     .attr("stroke", "#06303D")
     
