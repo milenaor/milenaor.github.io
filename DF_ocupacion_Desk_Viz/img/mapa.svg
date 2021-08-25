@@ -4,39 +4,45 @@
 	 viewBox="0 0 326 239" style="enable-background:new 0 0 326 239;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#D8DFE5;}
-	.st1{opacity:0.55;fill:#073A56;}
-	.st2{opacity:0.56;fill:#06303D;}
-	.st3{opacity:0.23;fill:#064966;}
-	.st4{fill:#E09E88;}
-	.st5{opacity:0.83;fill:#09485B;}
-	.st6{opacity:0.61;fill:#09485B;}
-	.st7{fill:none;}
-	.st8{clip-path:url(#SVGID_2_);}
-	.st9{clip-path:url(#SVGID_4_);}
-	.st10{opacity:0.83;clip-path:url(#SVGID_6_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
-	.st11{clip-path:url(#SVGID_8_);}
-	.st12{clip-path:url(#SVGID_10_);}
-	.st13{clip-path:url(#SVGID_12_);}
-	.st14{opacity:0.83;clip-path:url(#SVGID_14_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
-	.st15{opacity:0.64;}
-	.st16{fill:#0D5F72;}
-	.st17{fill:#06303D;}
-	.st18{clip-path:url(#SVGID_16_);}
-	.st19{clip-path:url(#SVGID_18_);}
-	.st20{opacity:0.83;clip-path:url(#SVGID_20_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
-	.st21{clip-path:url(#SVGID_22_);}
-	.st22{clip-path:url(#SVGID_24_);}
-	.st23{opacity:0.83;clip-path:url(#SVGID_26_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
-	.st24{clip-path:url(#SVGID_28_);}
-	.st25{clip-path:url(#SVGID_30_);}
-	.st26{opacity:0.83;clip-path:url(#SVGID_32_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
-	.st27{opacity:0.77;}
-	.st28{fill:none;stroke:#0D5F72;stroke-miterlimit:10;}
+	.st1{display:none;}
+	.st2{display:inline;opacity:0.55;fill:#073A56;}
+	.st3{display:inline;opacity:0.56;fill:#06303D;}
+	.st4{display:inline;opacity:0.23;fill:#064966;}
+	.st5{display:inline;fill:#E09E88;}
+	.st6{display:inline;}
+	.st7{opacity:0.83;fill:#09485B;}
+	.st8{opacity:0.55;fill:#073A56;}
+	.st9{opacity:0.56;fill:#06303D;}
+	.st10{opacity:0.23;fill:#064966;}
+	.st11{opacity:0.61;fill:#09485B;}
+	.st12{fill:#E09E88;}
+	.st13{display:inline;fill:none;}
+	.st14{clip-path:url(#SVGID_2_);}
+	.st15{clip-path:url(#SVGID_4_);}
+	.st16{opacity:0.83;clip-path:url(#SVGID_6_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
+	.st17{clip-path:url(#SVGID_8_);}
+	.st18{clip-path:url(#SVGID_10_);}
+	.st19{clip-path:url(#SVGID_12_);}
+	.st20{opacity:0.83;clip-path:url(#SVGID_14_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
+	.st21{display:inline;opacity:0.64;}
+	.st22{fill:#0D5F72;}
+	.st23{display:inline;fill:#06303D;}
+	.st24{clip-path:url(#SVGID_16_);}
+	.st25{clip-path:url(#SVGID_18_);}
+	.st26{opacity:0.83;clip-path:url(#SVGID_20_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
+	.st27{clip-path:url(#SVGID_22_);}
+	.st28{clip-path:url(#SVGID_24_);}
+	.st29{opacity:0.83;clip-path:url(#SVGID_26_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
+	.st30{clip-path:url(#SVGID_28_);}
+	.st31{clip-path:url(#SVGID_30_);}
+	.st32{opacity:0.83;clip-path:url(#SVGID_32_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
+	.st33{opacity:0.77;}
+	.st34{fill:none;stroke:#0D5F72;stroke-miterlimit:10;}
 </style>
 <g id="Capa_3">
 </g>
-<g id="Capa_1">
-	<path class="st1" d="M317.23,176.52c-4.87,1.57-10.19,2.02-15.25,3.54c-6.11,1.83-12.78,2-17.67,6.89c-0.13,0.13-0.4,0.12-0.6,0.17
+<g id="Capa_1" class="st1">
+	<path class="st2" d="M317.23,176.52c-4.87,1.57-10.19,2.02-15.25,3.54c-6.11,1.83-12.78,2-17.67,6.89c-0.13,0.13-0.4,0.12-0.6,0.17
 		c-2.38,3.54-6.54,4.15-10.03,5.42c-2.62,0.95-5.64,1.7-8.19,2.65c-6.11,2.28-12.65,3.9-17.68,8.83c-3.88,3.8-8.68,5.35-14.46,3.03
 		c-4.55-1.82-9.63-2.04-14.55-2.6c-5.43-0.62-10.7-2.55-16.19-2.63c-6.52-0.1-12.28,2.85-18.22,5.07c-2.32,0.86-4.23,2.71-6.62,3.4
 		c-0.17,0.14-0.35,0.27-0.55,0.39c-0.18,0.32-0.38,0.62-0.66,0.88c-0.04,0.04-0.08,0.08-0.11,0.11c-0.37,0.37-0.79,0.66-1.24,0.89
@@ -51,7 +57,7 @@
 		c0.39,0.14,0.95,0.39,1.2,0.23c4.63-2.91,10.36-0.58,15.06-3.18c0.69-0.38,1.66-0.41,2.48-0.34c5.8,0.5,11.59-1.39,17.4-0.07
 		c1.13,0.26,2.25-0.16,3.34-0.74c6.57-3.53,13.56-4,20.65-2.16c2.78,0.72,5.07-0.56,7.37-1.17c5.31-1.42,10.73-2.23,16.05-3.54
 		v-36.98C323.27,175.06,320.38,175.5,317.23,176.52z"/>
-	<path class="st2" d="M326.41,211.97c-5.32,1.31-10.74,2.13-16.05,3.54c-2.3,0.61-4.6,1.89-7.37,1.17
+	<path class="st3" d="M326.41,211.97c-5.32,1.31-10.74,2.13-16.05,3.54c-2.3,0.61-4.6,1.89-7.37,1.17
 		c-7.09-1.83-14.07-1.37-20.65,2.16c-1.09,0.58-2.2,1-3.34,0.74c-5.81-1.33-11.6,0.57-17.4,0.07c-0.82-0.07-1.8-0.04-2.48,0.34
 		c-4.7,2.61-10.43,0.28-15.06,3.18c-0.25,0.16-0.81-0.09-1.2-0.23c-5.76-2.06-11.52-1.38-17.35-0.24c-4.52,0.88-9.12,1.35-13.69,2
 		c-3.6,0.52-7.7-1.5-10.71,2.1c-0.14,0.17-0.6,0.07-0.91,0.08c-7.5,0.19-14.83,1.53-22.08,3.36c-2.59,0.66-5.12,1.65-7.78,1.75
@@ -66,7 +72,7 @@
 		c0.77,0.19,1.43,0.62,1.97,1.18c0.49,0.24,0.92,0.55,1.27,0.93c0.35,0.23,0.65,0.49,0.92,0.79c0.51,0.31,0.92,0.71,1.25,1.17
 		c0.28,0.26,0.52,0.55,0.73,0.87c0.15,0,0.13,0.26,0.28,0.26c4.62,0,9.36-0.02,14,0c19.29,0.06,38.81-0.01,58,0
 		c14.19,0.01,27.81-0.03,42,0c0.85,0,1.65,0.26,2,0c0.43-0.32,0.48-1.44,0.46-2.49C326.33,228.33,326.41,220.15,326.41,211.97z"/>
-	<path class="st3" d="M262.45,182.71c-2.68-0.65-5.25-1.14-7.68-2.68c-6.03-3.82-12.38-5.19-19.04-1.28
+	<path class="st4" d="M262.45,182.71c-2.68-0.65-5.25-1.14-7.68-2.68c-6.03-3.82-12.38-5.19-19.04-1.28
 		c-2.37,1.39-4.84,2.62-7.26,3.9c-5.54,2.94-11.42,3.46-17.49,2.36c-2-0.36-3.49-1.88-5.49-2.42c-10.16-2.74-18.53,2.31-27.11,6.17
 		c-4.68,2.1-8.98,5.05-13.67,7.13c-3.63,1.62-7.53,2.56-10.82,5.01c-2.8,2.08-5.89,3.62-9.5,4.04c-2.62,0.3-5.47,0.5-7.71,1.7
 		c-4.8,2.56-9.96,3.83-15.13,5.01c0.37,0.06,0.71,0.17,1.03,0.29c0.59,0.06,1.12,0.2,1.59,0.42c0.56,0.14,1.06,0.36,1.49,0.66
@@ -78,8 +84,8 @@
 		c0.27-0.23,0.57-0.43,0.9-0.6c0.47-0.42,1.04-0.74,1.71-0.93c0.41-0.36,0.87-0.66,1.4-0.86c5.94-2.21,11.7-5.16,18.22-5.07
 		c5.5,0.08,10.76,2.01,16.19,2.63c4.92,0.56,10,0.77,14.55,2.6c5.78,2.32,10.58,0.76,14.46-3.03c5.04-4.93,11.57-6.55,17.68-8.83
 		c2.54-0.95,5.57-1.7,8.19-2.65c3.49-1.26,7.65-1.88,10.03-5.42C276.81,184.71,269.49,184.4,262.45,182.71z"/>
-	<g class="st15">
-		<path class="st16" d="M210,239c-6.36-8.15-18.98-9.56-29-7c-5.28,1.35-11.2,0.58-16-2c-2.22-1.19-1.1-0.35-3-2
+	<g class="st21">
+		<path class="st22" d="M210,239c-6.36-8.15-18.98-9.56-29-7c-5.28,1.35-11.2,0.58-16-2c-2.22-1.19-1.1-0.35-3-2
 			c-6.18-5.34-17.71-5.56-25.72-7.16c-6.59-1.32-6.68-7.57-13.28-8.84c-4.26-0.82-12.05-5.2-16-7c-4.64-2.12-12.95-3.91-17-7
 			c-5.23-3.99-8.65-3.29-15-5c-7.36-1.98-17.07,7.83-24,11c-4.01,1.83-19.95,1.81-23,5c-12.79,13.4-11.43,21.71-28,30H210z"/>
 	</g>
@@ -92,7 +98,7 @@
 		<clipPath id="SVGID_2_">
 			<use xlink:href="#SVGID_21_"  style="overflow:visible;"/>
 		</clipPath>
-		<g class="st8">
+		<g class="st14">
 			<defs>
 				<rect id="SVGID_23_" x="-331.43" y="50.11" width="418.43" height="292.83"/>
 			</defs>
@@ -115,7 +121,7 @@
 			<clipPath id="SVGID_8_">
 				<use xlink:href="#SVGID_29_"  style="overflow:visible;"/>
 			</clipPath>
-			<g class="st11">
+			<g class="st17">
 				<defs>
 					<polyline id="SVGID_31_" points="114.8,342.94 332.7,342.94 332.7,50.08 114.8,50.08 114.8,342.94 					"/>
 				</defs>

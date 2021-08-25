@@ -21,17 +21,19 @@
 	.st15{opacity:0.64;}
 	.st16{fill:#0D5F72;}
 	.st17{fill:#06303D;}
-	.st18{clip-path:url(#SVGID_16_);}
-	.st19{clip-path:url(#SVGID_18_);}
-	.st20{opacity:0.83;clip-path:url(#SVGID_20_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
-	.st21{clip-path:url(#SVGID_22_);}
-	.st22{clip-path:url(#SVGID_24_);}
-	.st23{opacity:0.83;clip-path:url(#SVGID_26_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
-	.st24{clip-path:url(#SVGID_28_);}
-	.st25{clip-path:url(#SVGID_30_);}
-	.st26{opacity:0.83;clip-path:url(#SVGID_32_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
-	.st27{opacity:0.77;}
-	.st28{fill:none;stroke:#0D5F72;stroke-miterlimit:10;}
+	.st18{display:none;}
+	.st19{display:inline;}
+	.st20{clip-path:url(#SVGID_16_);}
+	.st21{clip-path:url(#SVGID_18_);}
+	.st22{opacity:0.83;clip-path:url(#SVGID_20_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
+	.st23{clip-path:url(#SVGID_22_);}
+	.st24{clip-path:url(#SVGID_24_);}
+	.st25{opacity:0.83;clip-path:url(#SVGID_26_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
+	.st26{clip-path:url(#SVGID_28_);}
+	.st27{clip-path:url(#SVGID_30_);}
+	.st28{opacity:0.83;clip-path:url(#SVGID_32_);fill:none;stroke:#09485B;stroke-width:0.1;stroke-miterlimit:10;}
+	.st29{opacity:0.77;}
+	.st30{fill:none;stroke:#0D5F72;stroke-miterlimit:10;}
 </style>
 <g id="Capa_3">
 </g>
@@ -84,8 +86,8 @@
 			c-5.23-3.99-8.65-3.29-15-5c-7.36-1.98-17.07,7.83-24,11c-4.01,1.83-19.95,1.81-23,5c-12.79,13.4-11.43,21.71-28,30H210z"/>
 	</g>
 </g>
-<g id="Capa_4">
-	<g>
+<g id="Capa_4" class="st18">
+	<g class="st19">
 		<defs>
 			<rect id="SVGID_21_" x="-346" y="30" width="326" height="209"/>
 		</defs>
@@ -101,7 +103,7 @@
 			</clipPath>
 		</g>
 	</g>
-	<g>
+	<g class="st19">
 		<defs>
 			<rect id="SVGID_27_" y="30" width="326" height="209"/>
 		</defs>
