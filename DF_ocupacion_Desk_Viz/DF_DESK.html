@@ -77,18 +77,36 @@ svg.append("g")
     .attr("fill", "#06303D")
     
     
-//<!-- Load images -->//
+//<!-- Load image montaña -->//
 var img = svg.append('svg:image')
- .transition()
- .duration(2000)
- img
- .attr("xlink:href","https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/DF_ocupacion_Desk_Viz/img/infographic_desk.svg")
+  img
+ .attr("xlink:href","https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/DF_ocupacion_Desk_Viz/img/motaña.svg")
  .attr("x", "-80")
  .attr("y", "-48")
  .attr("width", `${width + margin.left + margin.right}`)
  .attr("height", `${height + margin.top + margin.bottom}`);
     
+    
+//<!-- Load image mapa -->//
+var img = svg.append('svg:image')
+ img
+ .attr("xlink:href","https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/DF_ocupacion_Desk_Viz/img/mapa.svg")
+ 
+ .transition()
+ .duration(3000)
+ .style("fill", "https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/DF_ocupacion_Desk_Viz/img/mapa_color.svg")
+
+ .attr("x", "-80")
+ .attr("y", "-48")
+ 
+ .attr("width", `${width + margin.left + margin.right}`)
+ .attr("height", `${height + margin.top + margin.bottom}`);
+    
+    
+ 
+    
    
+
 
 // Lines
 svg.selectAll("myline")
