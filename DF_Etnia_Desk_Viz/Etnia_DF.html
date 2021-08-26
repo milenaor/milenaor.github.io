@@ -21,12 +21,15 @@ var svg = d3.select("#my_dataviz_etnia")
     .attr("width", 1100)
     .attr("height", 740)
 
+
+
+
+
 // Parse the Data
 d3.csv("https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/etniaDF.csv", function(data) {
 
-/*// sort data
-data.sort(function(b, a) {
-  return a.Etia - b.Etia;*/
+      data.forEach(function(d) {
+       d.cantidad = +d.cantidad;
 });
 
 // create dummy data -> just one element per circle
