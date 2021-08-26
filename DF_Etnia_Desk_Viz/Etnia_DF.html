@@ -26,11 +26,16 @@ var svg = d3.select("#my_dataviz_etnia")
 
 
 // Parse the Data
-d3.csv("https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/etniaDF.csv", function(data) {
+d3.csv("https://raw.githubusercontent.com/milenaor/milenaor.github.io/master/DF_Data_Etnia.csv", function(data) {
 
       data.forEach(function(d) {
        d.cantidad = +d.cantidad;
 });
+    
+   /* x.domain(data.map(function(d) { return d.color; }))
+
+  		 y.domain([0, d3.max(data, function(d) { return d.cantidad; })]);
+*/
 
 // create dummy data -> just one element per circle
 /*var data = [{ "name": "A", "group": 1 }, { "name": "B", "group": 1 }, { "name": "C", "group": 1 }, { "name": "D", "group": 1 }, { "name": "E", "group": 1 }, { "name": "F", "group": 1 },
