@@ -52,3 +52,16 @@ p{
     font-family: 'Raleway', sans-serif;
 }
 
+.linea_horizontal{
+    background-color: #FFBB00;
+    height: 2px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.linea_vertical{
+    background-color: #FFBB00;
+    height: 200px;
+    width: 2px;
+    margin: 0 auto;
+}
