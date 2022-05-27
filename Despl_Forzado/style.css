@@ -16,10 +16,11 @@ body{
 }
 
 .frase_inicio{
-    max-width: 450px;
+    max-width: 550px;
     margin: 0 auto;
     vertical-align: middle;
     text-align: center;
+    position:relative;
 }
 
 h1{
@@ -64,4 +65,18 @@ p{
     height: 200px;
     width: 2px;
     margin: 0 auto;
+}
+
+.comilla_grande{
+    color:#FFBB0070;
+    font-size:200px;
+    font-family: 'Tiro Bangla', serif;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.parrafo_inicio{
+    padding-left:50px;
+    padding-right:30px;
 }
