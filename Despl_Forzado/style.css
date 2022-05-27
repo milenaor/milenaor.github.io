@@ -98,3 +98,19 @@ p{
   padding-bottom: 20px;
     
 }
+
+.title {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+.intro {
+    height: 90vh;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    background: var(--main-color);
+  }
+
