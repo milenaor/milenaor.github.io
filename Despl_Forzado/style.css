@@ -62,7 +62,7 @@ p{
 
 .linea_vertical{
     background-color: #FFBB00;
-    height: 200px;
+    height: 500px;
     width: 2px;
     margin: 0 auto;
 }
@@ -79,4 +79,22 @@ p{
 .parrafo_inicio{
     padding-left:50px;
     padding-right:30px;
+}
+
+.borde{
+    border-width: 2px;
+    border-style: solid;
+    border-color: #FFBB00;
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.imagen_cuadrado{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+    
 }
