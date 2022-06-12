@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300);
+
+body {
+  background-color: #ffffff;
+  margin-left: 32px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+hr {
+  border: 1px solid #ffffff;
+}
+
+a:link {
+  color: #0055cc;
+}
+a:visited {
+  color: #990099;
+}
+a:hover {
+  color: #cc0000;
+}
+
+th {
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+td {
+  background-color: #ecf7fe;
+  text-align: center;
+}
