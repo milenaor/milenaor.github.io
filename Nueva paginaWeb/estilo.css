@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root{
+    --green: #2F3C2F;
+    --olive: #CEDACC;
+    --aqua: #E9F2EE;
+    --brown: #C9AF8C;
+    --pink: #F2E1E7;
+    --white: #fff;
+}
+
+body{
+    background-color: #CEDACC;
+}
+
+.abstract-content{
+  background-color: #ffffff;
+  padding: 90px 90px;
+
+}
+
+.introduccion-content{
+  background-color:#2F3C2F;
+  padding: 90px 90px;
+
+}
+
+.trama-content{
+  background-color:#ffffff;
+  padding: 90px 90px;
+
+}
+
+h1, h2, h3, h4, h5, h6 em{
+        font-family: 'Cormorant Garamond', serif;
+  }
+  h1{
+    font-size: 100px;
+    font-weight: 700;
+  }
+  
+  h2{
+    font-size: 80px;
+    font-weight: bold;
+  }
+  
+  h3{
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  h4{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    /* padding: 0 2rem 0 0; */
+    text-align: justify;
+  }
+
+  .intro{
+    margin: 10rem 0;
+  }
+
+  .intro h1{
+    color: #2F3C2F;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .intro h3{
+    color: #2F3C2F;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .intro h4{
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-bottom: 0px;
+    font-weight: lighter;
+  }
+
+  
+ .btn{
+    display: block;
+    font-family:'Cormorant Garamond', serif;
+    font-weight:lighter;
+    border-radius: 50px;
+    margin: 10px;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2f3c2f51;
+  }
+
+  .btn:hover{
+    background-color: transparent;
+    border: 2px solid #2F3C2F;
+    color: #2F3C2F;
+
+  }
+  
+  .resumen h2{
+    font-size: 54px;
+  }
+  .resumen img{
+    padding: 0 0 2rem 0;
+  }
+
+  .resumen blockquote{
+    font-family:'Cormorant Garamond', serif;
+    text-align: center;
+    font-size: 28px;
+    color: #C9AF8C;
+    padding: 2rem 0;
+  }
+
+  .introduccion h2{
+    color: #ffffff;
+    font-size: 54px
+  }
+
+  .introduccion p{
+    color: #ffffff;
+
+  }
+  .introduccion img{
+    padding: 0 0 2rem 0;
+  }
+
+
+/* .buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 20px, 50px;
+    font-size: 1.5rem;
+    position: relative;
+    margin: 30px;
+}
+
+.btn1{
+  border: #ffffff;
+  color: #ffffff;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+}
+
+.btn1::after, .btn-1::before{
+  content: "";
+  position: absolute;
+  opacity: 0.3;
+  background: #C9AF8C;
+  border-radius: inherit;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: transform 0.3s ease;
+}
+
+.btn1:hover{
+  transform: translate(-12px, -12px);
+}
+
+.btn-1:hover::after{
+  transform: translate(6px, 6px);
+} */
