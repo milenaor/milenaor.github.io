@@ -98,12 +98,15 @@ body {
   padding: 0 0 2rem 0;
 }
 
-.background-special p,
-.background-special h3 {
+.background-special p, .background-special h3, .background-special h2, .background-special li {
   color: #ffffff;
 
 }
 
+.background-special li{
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 20px;
+}
 
 blockquote.resumen {
   font-family: 'Cormorant Garamond', serif;
@@ -112,7 +115,6 @@ blockquote.resumen {
   color: #C9AF8C;
   padding: 2rem 0;
 }
-
 
 .intro {
   margin: 10rem 0;
@@ -128,15 +130,15 @@ blockquote.resumen {
   color: #2F3C2F;
   margin-top: 0px;
   margin-bottom: 0px;
+  font-size: 32px;
 }
 
 .intro h4 {
-  color: #ffffff;
+  color: #2F3C2F;
   margin-top: 2rem;
   margin-bottom: 0px;
-  font-weight: lighter;
+  font-weight: bold;
 }
-
 
 .btn {
   display: block;
@@ -157,6 +159,20 @@ blockquote.resumen {
 
 .back-top {
   position: fixed;
-  bottom: 20px;
+  bottom: 50px;
   right: 20px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: lighter;
+  border-radius: 50px;
+  margin: 30px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #2f3c2f51;
+  padding: 1rem;
+}
+
+.back-top:hover {
+  background-color: transparent;
+  border: 2px solid #2F3C2F;
+  color: #2F3C2F;
 }
